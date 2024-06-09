@@ -1,3 +1,10 @@
+"""
+1) Stemming, Tokenization and Bag of words
+2) Create Training data
+3) PyTorch Model and Training 
+4) Save or Load model and Implement Chat
+"""
+
 import numpy as np
 import nltk
 from nltk.stem.porter import PorterStemmer
