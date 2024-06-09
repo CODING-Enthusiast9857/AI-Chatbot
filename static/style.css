@@ -4,11 +4,19 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); /* Import fancy font */
+
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 100%;
     background: #F1F1F1;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
 }
 
 *, html {
@@ -17,6 +25,44 @@ body {
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
     --primary: #581B98;
+}
+
+.header {
+    text-align: center;
+    padding: 50px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #333;
+    font-family: 'Great Vibes', cursive;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid orange;
+    animation: typing 5s steps(40, end) infinite, blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    0% { width: 0 }
+    70% { width: 100% }
+    85% { width: 100% }
+    100% { width: 0 }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+.header h1 .restaurant-name {
+    color: #ff6347; /* Different color for restaurant name */
+}
+
+.header p {
+    font-family: 'Great Vibes', cursive;
+    margin: 0;
+    font-size: 1.5em;
 }
 
 /* CHATBOX
