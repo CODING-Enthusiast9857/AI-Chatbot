@@ -4,6 +4,7 @@
       "tag": "greeting",
       "patterns": [
         "Hi",
+        "Hii",
         "Hey",
         "How are you",
         "Is anyone there?",
