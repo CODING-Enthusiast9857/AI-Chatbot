@@ -1,84 +1,145 @@
 {
-    "intents": [
-      {
-        "tag": "greeting",
-        "patterns": [
-          "Hi",
-          "Hey",
-          "How are you",
-          "Is anyone there?",
-          "Hello",
-          "Good day"
-        ],
-        "responses": [
-          "Hey :-)",
-          "Hello, thanks for visiting",
-          "Hi there, what can I do for you?",
-          "Hi there, how can I help?"
-        ]
-      },
-      {
-        "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
-        "responses": [
-          "See you later, thanks for visiting",
-          "Have a nice day",
-          "Bye! Come back again soon."
-        ]
-      },
-      {
-        "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure"]
-      },
-      {
-        "tag": "items",
-        "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
-        ],
-        "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
-        ]
-      },
-      {
-        "tag": "payments",
-        "patterns": [
-          "Do you take credit cards?",
-          "Do you accept Mastercard?",
-          "Can I pay with Paypal?",
-          "Are you cash only?"
-        ],
-        "responses": [
-          "We accept VISA, Mastercard and Paypal",
-          "We accept most major credit cards, and Paypal"
-        ]
-      },
-      {
-        "tag": "delivery",
-        "patterns": [
-          "How long does delivery take?",
-          "How long does shipping take?",
-          "When do I get my delivery?"
-        ],
-        "responses": [
-          "Delivery takes 2-4 days",
-          "Shipping takes 2-4 days"
-        ]
-      },
-      {
-        "tag": "funny",
-        "patterns": [
-          "Tell me a joke!",
-          "Tell me something funny!",
-          "Do you know a joke?"
-        ],
-        "responses": [
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
-        ]
-      }
-    ]
-  }
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "What's on the menu?",
+        "What do you have?",
+        "Tell me about your dishes",
+        "What can I order?"
+      ],
+      "responses": [
+        "We have a variety of dishes including pasta, pizza, salads, and desserts.",
+        "Our menu includes appetizers, main courses, and desserts. You can check our website for more details."
+      ]
+    },
+    {
+      "tag": "specials",
+      "patterns": [
+        "Do you have any special offers?",
+        "Any deals today?",
+        "What's on special?"
+      ],
+      "responses": [
+        "Today we have a special discount on all pasta dishes.",
+        "Check out our happy hour specials from 5 PM to 7 PM.",
+        "We have a 10% discount for first-time customers."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your opening hours?",
+        "When are you open?",
+        "What time do you close?"
+      ],
+      "responses": [
+        "We are open from 10 AM to 10 PM every day.",
+        "Our restaurant operates from 11 AM to 11 PM from Monday to Saturday and from 12 PM to 8 PM on Sundays."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address?",
+        "How can I find you?"
+      ],
+      "responses": [
+        "We are located at 123 Main Street, Hometown.",
+        "You can find us at 456 Elm Street, Cityville."
+      ]
+    },
+    {
+      "tag": "reservations",
+      "patterns": [
+        "Can I make a reservation?",
+        "How do I book a table?",
+        "Can I reserve a table?"
+      ],
+      "responses": [
+        "You can make a reservation by calling us at 123-456-7890.",
+        "Reservations can be made through our website or by phone."
+      ]
+    },
+    {
+      "tag": "dietary",
+      "patterns": [
+        "Do you have vegan options?",
+        "Any gluten-free dishes?",
+        "What are your vegetarian dishes?"
+      ],
+      "responses": [
+        "Yes, we have a variety of vegan and vegetarian options.",
+        "We offer gluten-free pasta and desserts."
+      ]
+    },
+    {
+      "tag": "chef_specials",
+      "patterns": [
+        "What's the chef's special?",
+        "Any special dishes today?",
+        "What is the chef cooking today?"
+      ],
+      "responses": [
+        "Today's chef's special is grilled salmon with lemon butter sauce.",
+        "Our chef recommends the steak au poivre today."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Do you host events?",
+        "Can I book the restaurant for a party?",
+        "Do you have event space?"
+      ],
+      "responses": [
+        "Yes, we have a private dining area for events and parties.",
+        "You can book our restaurant for special events by contacting us directly."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "What's your phone number?",
+        "Do you have an email?"
+      ],
+      "responses": [
+        "You can reach us by phone at 123-456-7890 or email us at info@restaurant.com.",
+        "Feel free to call us at 098-765-4321 or send an email to support@restaurant.com."
+      ]
+    }
+  ]
+}
