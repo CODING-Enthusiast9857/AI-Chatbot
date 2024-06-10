@@ -49,7 +49,7 @@ The Restaurant Chatbot is an AI-powered assistant that helps enhance customer ex
 - **JavaScript**
 
 ### Other
-- **Firebase**: For hosting the frontend
+- **Render**: For hosting the frontend
 - **JSON**: For intent classification data
 
 ## Setup Instructions
