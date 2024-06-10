@@ -4,3 +4,6 @@ flask
 torch
 torchvision
 gunicorn
+
+
+nltk.download('punkt')
